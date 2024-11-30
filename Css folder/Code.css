@@ -1,0 +1,876 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*------Start header-----*/
+
+.header{
+    top: 35px;
+}
+   
+
+.header .nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.header .nav a:hover{
+    color:#ff589e;
+}
+
+.back-slide{
+    position: absolute;
+    position: 0;
+    top: 0;
+    height: 108vh;
+    width: 100%;
+    z-index: -1;
+}
+
+/*------Start Text Slide-----*/
+#text-slide{
+    margin-top: 220px;
+}
+
+#text-slide #cta{
+    color: white;
+    background-color: ff589e;
+}
+
+
+
+.text-slide .cta{
+    text-decoration: none;
+    color: white;
+    background-color: ff589e;
+    padding: 10 20;
+    border-radius: 20;
+    border-radius: 159px;
+    font-size: small;
+}
+
+.text-slide .cta:hover{
+    background-color: white;
+    color: #ff589e;
+}
+
+/*------Start advantages-----*/
+
+
+
+.advantages .adv #bg-icon{
+    background-color: #8261ee;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.advantages .adv #bg-icon .icon{
+ 
+    width: 40px;
+    height: 40px;
+   
+}
+
+
+
+.advantages .adv .title{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+
+}
+
+.advantages .adv .description{
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+
+}
+
+/*------Start discuss-project-----*/
+
+.discuss-project{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 160px 140px 0 140px;
+}
+
+.projects #text .title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+}
+
+.projects #text .description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    line-height: 28px;
+    letter-spacing: 1px;
+
+}
+
+.hr{
+    background-color: #0000000f;
+    height: 1px;
+    width: 72%;
+    margin: auto;
+    margin-top: 121px;
+    margin-bottom: 121px;
+}
+
+
+/*------Start  Business-----*/
+
+.Grow-bus{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.Grow-bus .text .title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+
+}
+
+.Grow-bus .text .description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    line-height: 28px;
+    letter-spacing: 1px;
+
+}
+
+/*------Start  process-----*/
+
+.process{
+    margin-top: 148px; 
+    flex-direction: column;
+    background-image: url(./image/work-process-bg.png);
+    display: block;
+    text-align: center;
+    padding-top: 102px;
+    padding-bottom: 110px;
+    padding-left: 100;
+    padding: 84px 180 137px 180;
+    background-repeat: no-repeat;
+    margin-top: 143px;
+
+}
+
+.process .text-process .title{
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+}
+
+
+.process .text-process .subtitle{
+    color: #fff;
+    letter-spacing: 0.25px;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 53px;
+
+}
+
+.process .sex-process{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.process .sex-process .one-prc,
+.two-prc,
+.three-prc,
+.four-prc,
+.five-prc,
+.sex-prc{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 26px 32px;
+    box-shadow: 14px 14px 0px -5px rgb(214 214 214 / 38%);
+    transition: all 0.2s ease 0s;
+
+}
+
+
+
+.process .one-prc:hover{
+    margin-top: -35px;
+}
+.process .two-prc:hover{
+    margin-top: -35px;
+}
+.process .three-prc:hover{
+    margin-top: -35px;
+}
+.process .four-prc:hover{
+    margin-top: -35px;
+}
+.process .five-prc:hover{
+    margin-top: -35px;
+}
+.process .sex-prc:hover{
+    margin-top: -35px;
+}
+
+
+
+
+.process .sex-process .one-prc::before{
+    height: 159px;
+    width: 205.469;
+    background-color: #d93535;
+    position: relative;
+    left: 41px;
+    bottom: 25px;
+    border-radius: 20px;
+
+}
+
+
+
+.process .sex-process .title-description img{
+    padding-bottom: 12px;
+}
+
+
+.process .sex-process .title-description .title{
+    font-weight: 400;
+    font-size: 17px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+}
+
+.process .sex-process .title-description .description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    letter-spacing: .75px;
+    line-height: 1.6;
+}
+
+/*---start reviwes---*/
+
+.reviwes{
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.reviwes .heading .title{
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+}
+.reviwes .heading .subtitle{
+    font-size: 15px;
+    color: #777;
+    line-height: 1.6;
+
+}
+
+
+.reviwes .comments{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 78px 126px;
+
+}
+
+.reviwes .comments .one,
+.two,
+.three{
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+    display: block;
+    border-radius: 21px;
+    padding: 25px 0;
+}
+
+
+.reviwes .comments .comment{
+    font-weight: 400;
+    font-size: 15px;
+    color: #777;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    text-align: start;
+    margin-left: 24px;
+    margin-top: 35;
+    margin-right: 24px;
+
+
+}
+
+
+
+.reviwes .comments .person{
+    display: flex;
+    margin-top: 33px;
+    margin-left: 24px;
+}
+
+.reviwes .comments .person img{
+    width: 60;
+    height: 60;
+}    
+
+
+.reviwes .comments .person .info-person{
+    text-align: start;
+    margin-left: 22px;
+    transition: all 0.3s ease 0s;
+    
+}
+
+
+.reviwes .comments .person .info-person:hover{
+    margin-left: 35px;
+
+}
+
+.reviwes .comments .person .info-person .name{
+    font-weight: 400;
+    font-size: 17px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+
+}
+
+.reviwes .comments .person .info-person .profession{
+    font-weight: 400;
+    font-size: 15px;
+    color: #ff589e;
+    letter-spacing: 0.25px;
+    
+}
+
+/*---start Plans---*/
+
+.plans{
+    display: block;
+    text-align: center;
+    background-color: #f2f2fe;
+    padding: 103px 111px;
+}
+
+.plans .text-plans .title{
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-top: 0;
+
+}
+
+.plans .text-plans .subtitle{
+    font-size: 15px;
+    color: #777;
+    line-height: 1.6;
+
+}
+
+
+.plans .pack{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 65px;
+    
+}
+
+.plans .pack .pack-one,
+.pack-two,
+.pack-three{
+    background-color: white;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 32px 29px;
+}
+
+.plans .pack .Starter,
+.Premium,
+.Advanced{
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    color: #1e1e1e;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+
+.plans .pack .price-p{
+    font-weight: 500;
+    font-size: 28px;
+    background-color: #ff589e;
+    padding: 30px 103px;
+    border-radius: 108;
+    margin-top: 24px;
+    border-radius: 20px;
+    color: #fff4f9;
+
+}
+
+.plans .pack .price-s,
+.price-a{
+    font-weight: 500;
+    font-size: 28px;
+    color: #fff;
+    background-color: #8261ee;
+    padding: 30px 103px;
+    border-radius: 108;
+    margin-top: 24px;
+    border-radius: 20px;
+}
+
+
+.plans .pack .advantages{
+    color: #7a7a7a;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 2.7;
+    margin-top: 40px;
+
+}
+
+.plans .pack .cta{
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0.25px;
+    margin-top: 40;
+    padding: 11px 0px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 64px;
+    text-decoration: none;
+    background-color: #8261ee;
+}
+
+.plans .pack .cta:hover{
+    background-color: #ff589e;
+}
+
+.plans .pack .cta a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*--Start statistics--*/
+.statistics{
+    background-image: url(./image/fun-facts-bg.png);
+    padding: 118px 0px ;
+    
+}
+
+.statistics .info{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 302px;
+    align-items: center;
+}
+
+.statistics .projects,
+.happy-client,
+.awards-wins,
+.countries{
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.25px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+    transition: all 0.2s ease 0s;
+    
+
+}
+
+.statistics .countries:hover{
+    margin-top: 10px;
+
+}
+
+.statistics .awards-wins:hover{
+    margin-top: 10px;
+
+}
+
+.statistics .happy-client:hover{
+    margin-top: 10px;
+
+}
+
+.statistics .projects:hover{
+    margin-top: 10px;
+
+}
+
+
+.statistics span{
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px
+}
+
+/*----Start Blog----*/
+.blog{
+    display: block;
+    text-align: center;
+    padding: 117px 119px;
+
+}
+
+.blog .heading{
+    margin-bottom: 57px;
+}
+
+.blog .heading .Blog-Entries{
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.blog .heading .subtitle{
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 30px;
+    line-height: 1.6;
+
+}
+
+
+.blog .items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog .items .item-one,
+.item-two,
+.item-three{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.blog .items img{
+    height: 220;
+    width: 370;
+}
+
+.blog .items .title{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    margin-top: 23px;
+
+}
+
+.blog .items .title:hover{
+    color: #ff589e;
+}
+
+.blog .items .subtitle{
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 0.26px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+    
+
+.blog .items .read-more{
+    text-decoration: none;
+    background-color: #8261ee;
+    color: white;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+.blog .items .read-more:hover{
+    background-color: #ff589e;
+}
+
+
+/*----Start Talk To Us----*/
+.Talk-To-Us{
+    display: block;
+    text-align: center;
+    background-color: #f2f2fe;
+    padding-bottom: 93px;
+    padding-top: 93px;
+}
+.Talk-To-Us .heading .title{
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+
+}
+
+.Talk-To-Us .heading .subtitle{
+    font-size: 15px;
+    color: #777;
+    line-height: 1.6;
+    
+}
+
+.Talk-To-Us .info-forum{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Talk-To-Us .info-forum .info{
+    text-align: start;
+    margin-left: 171px;
+}
+
+.Talk-To-Us .info-forum .info .Keep-in-touch{
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    margin-bottom: 30px;
+
+}
+
+.Talk-To-Us .info-forum .info .firs-par{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F8BA4;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+    
+
+
+.Talk-To-Us .info-forum .info .last-par{
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F8BA4;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+.Talk-To-Us .info-forum .forum{
+    display: block;
+    margin-right: 240px;
+    margin-left: 60px;
+    margin-bottom: 0;
+    margin-top: 44px;
+}
+
+
+
+
+.Talk-To-Us .info-forum .forum .mail-msg{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Talk-To-Us .info-forum .forum .mail-msg .message{
+    height: 45px;
+    width: 334px;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: 380;
+    padding-left: 20px;
+    cursor: pointer;
+    
+}
+
+
+.Talk-To-Us .info-forum .forum .mail-msg .e-mail{
+    height: 45px;
+    width: 334px;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: 380;
+    padding-left: 20px;
+    margin-right: 27px;
+    cursor: pointer;
+}
+
+
+
+.Talk-To-Us .info-forum .forum .full-name{
+    height: 158px;
+    width: 693px;
+    border-radius: 22px;
+    border-style: none;
+    margin-top: 9px;
+    font-size: 15px;
+    font-weight: 380;
+    margin-top: 18px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+
+
+.Talk-To-Us .info-forum .forum .send{
+    color: white;
+    background-color: #8261ee;
+    border-radius: 18px;
+    padding: 15px 10;
+    width: 141px;
+    margin-top: 34px;
+    cursor: pointer;
+}
+
+.Talk-To-Us .info-forum .forum .send:hover{
+    background-color: #ff589e;
+}
+
+.Talk-To-Us .info-forum .forum .send a{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+
+}
+
+/*----Start footer----*/
+.footer{
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+    padding: 33px 0;
+
+}
+
+.footer .COPYRIGHT{
+    font-size: small;
+    font-weight: 200;
+    color: white;
+}
+
+.footer .social-media{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 628px;
+}
+
+.footer .icon{
+    background-color: #ffffff;
+    color: #8261ee;
+    width: 40px;
+    height: 38px;
+    border-radius: 109;
+    border-radius: 228px;
+    padding: 10;
+    cursor: pointer;
+   
+}
+
+.footer .icon a{
+    color: #8261ee;
+}
+
+.footer .icon:hover{
+    background-color: #ff589e;
+}
+
+
+.footer .hr{
+    background-color: #0000000f;
+    height: 1px;
+    width: 72%;
+    margin: auto;
+    margin-top: 45px;
+    
+}
+
+.footer .COPYRIGHT{
+    margin-top: 45px;
+}
+
+/* @media (max-width: 767.98px) { 
+    .container{
+        padding-inline: 2rem;
+    }
+    .header{
+        margin-inline: 0px;
+    }
+
+    .header .nav{
+        display: none;
+    }
+ } */
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

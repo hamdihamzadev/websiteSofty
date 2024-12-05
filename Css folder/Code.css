@@ -8,7 +8,39 @@
 
 }
 
+body{
+    overflow-x: hidden;
+}
+
+.py-section{
+    padding-block: 100px;
+}
 /*------Start header-----*/
+
+#section-header{
+    top: 34px;
+}
+
+#section-header .nav-link:hover{ 
+    color: #ff589e;
+}
+
+#section-header #navbarNav ul li .active{ 
+    color:#ff589e;
+} 
+
+
+
+@media (max-width: 991.98px) { 
+    #section-header #navbarNav ul{ 
+       margin-inline: 0px;
+    }
+    #section-header #navbarNav ul li{ 
+        border-top: 1px solid rgb(204, 204, 204);
+    } 
+ }
+
+
 
 .header{
     top: 35px;
@@ -27,6 +59,28 @@
 .header .nav a:hover{
     color:#ff589e;
 }
+
+.header #header-bg{
+    max-height: 60px;
+    overflow: hidden;
+    transition: all 1s ease ;
+}
+
+.header #box-header{
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.header #box-header a{
+  color: #1e1e1e;
+}
+
+.header #box-header a:hover{
+  color: #ff589e;
+}
+
+
+
 
 .back-slide{
     position: absolute;
@@ -105,13 +159,6 @@
 
 /*------Start discuss-project-----*/
 
-.discuss-project{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 160px 140px 0 140px;
-}
-
 .projects #text .title{
     font-weight: 500;
     font-size: 24px;
@@ -129,59 +176,18 @@
 
 }
 
-.hr{
-    background-color: #0000000f;
-    height: 1px;
-    width: 72%;
-    margin: auto;
-    margin-top: 121px;
-    margin-bottom: 121px;
-}
-
 
 /*------Start  Business-----*/
 
-.Grow-bus{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 
-}
-
-.Grow-bus .text .title{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 42px;
-    color: #1e1e1e;
-    letter-spacing: 0.25px;
-    margin-bottom: 30px;
-
-}
-
-.Grow-bus .text .description{
-    font-weight: 400;
-    font-size: 16px;
-    color: #777;
-    line-height: 28px;
-    letter-spacing: 1px;
-
-}
 
 /*------Start  process-----*/
 
 .process{
-    margin-top: 148px; 
-    flex-direction: column;
     background-image: url(./image/work-process-bg.png);
     display: block;
-    text-align: center;
-    padding-top: 102px;
-    padding-bottom: 110px;
-    padding-left: 100;
-    padding: 84px 180 137px 180;
     background-repeat: no-repeat;
-    margin-top: 143px;
-
+    background-size: cover;
 }
 
 .process .text-process .title{
@@ -221,7 +227,20 @@
     padding: 26px 32px;
     box-shadow: 14px 14px 0px -5px rgb(214 214 214 / 38%);
     transition: all 0.2s ease 0s;
+    height: 220px;
 
+}
+
+.process 
+.sex-process 
+.one-prc i,
+.two-prc i,
+.three-prc i,
+.four-prc i,
+.five-prc i,
+.sex-prc i{
+    color: #8261ee;
+    font-size: 24px;
 }
 
 
@@ -283,14 +302,6 @@
 
 /*---start reviwes---*/
 
-.reviwes{
-    display: block;
-    text-align: center;
-    background-color: #ffffff;
-    margin-top: 160px;
-    margin-bottom: 160px;
-}
-
 .reviwes .heading .title{
     font-weight: 500;
     font-size: 28px;
@@ -306,13 +317,6 @@
 }
 
 
-.reviwes .comments{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 78px 126px;
-
-}
-
 .reviwes .comments .one,
 .two,
 .three{
@@ -320,7 +324,6 @@
     background-color: white;
     display: block;
     border-radius: 21px;
-    padding: 25px 0;
 }
 
 
@@ -330,21 +333,8 @@
     color: #777;
     letter-spacing: 0.6px;
     line-height: 26px;
-    text-align: start;
-    margin-left: 24px;
-    margin-top: 35;
-    margin-right: 24px;
-
-
 }
 
-
-
-.reviwes .comments .person{
-    display: flex;
-    margin-top: 33px;
-    margin-left: 24px;
-}
 
 .reviwes .comments .person img{
     width: 60;
@@ -354,7 +344,6 @@
 
 .reviwes .comments .person .info-person{
     text-align: start;
-    margin-left: 22px;
     transition: all 0.3s ease 0s;
     
 }
@@ -387,7 +376,6 @@
     display: block;
     text-align: center;
     background-color: #f2f2fe;
-    padding: 103px 111px;
 }
 
 .plans .text-plans .title{
@@ -405,14 +393,6 @@
     color: #777;
     line-height: 1.6;
 
-}
-
-
-.plans .pack{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 65px;
-    
 }
 
 .plans .pack .pack-one,
@@ -496,16 +476,10 @@
 /*--Start statistics--*/
 .statistics{
     background-image: url(./image/fun-facts-bg.png);
-    padding: 118px 0px ;
+    background-size: cover;
     
 }
 
-.statistics .info{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 302px;
-    align-items: center;
-}
 
 .statistics .projects,
 .happy-client,
@@ -521,25 +495,12 @@
     
 
 }
-
-.statistics .countries:hover{
-    margin-top: 10px;
-
+.statistics .numbers{
+    transition: transform 0.3s ease;
+    color: white;
 }
-
-.statistics .awards-wins:hover{
-    margin-top: 10px;
-
-}
-
-.statistics .happy-client:hover{
-    margin-top: 10px;
-
-}
-
-.statistics .projects:hover{
-    margin-top: 10px;
-
+.statistics .numbers:hover{
+    transform: translateY(-17px);
 }
 
 
@@ -554,7 +515,7 @@
 .blog{
     display: block;
     text-align: center;
-    padding: 117px 119px;
+   
 
 }
 
@@ -578,12 +539,6 @@
     margin-bottom: 30px;
     line-height: 1.6;
 
-}
-
-
-.blog .items{
-    display: flex;
-    justify-content: space-around;
 }
 
 .blog .items .item-one,
@@ -646,8 +601,7 @@
     display: block;
     text-align: center;
     background-color: #f2f2fe;
-    padding-bottom: 93px;
-    padding-top: 93px;
+
 }
 .Talk-To-Us .heading .title{
     font-weight: 500;
@@ -665,17 +619,6 @@
     
 }
 
-.Talk-To-Us .info-forum{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.Talk-To-Us .info-forum .info{
-    text-align: start;
-    margin-left: 171px;
-}
 
 .Talk-To-Us .info-forum .info .Keep-in-touch{
     font-weight: 500;
@@ -706,15 +649,16 @@
     line-height: 26px;
 }
 
-.Talk-To-Us .info-forum .forum{
-    display: block;
-    margin-right: 240px;
-    margin-left: 60px;
-    margin-bottom: 0;
-    margin-top: 44px;
+
+
+.Talk-To-Us .info-forum #form #input-form:focus{
+    box-shadow: none;
 }
 
-
+.Talk-To-Us .info-forum #form button{
+    background-color: #8261ee;
+    color: white;
+}
 
 
 .Talk-To-Us .info-forum .forum .mail-msg{
@@ -803,22 +747,15 @@
     color: white;
 }
 
-.footer .social-media{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 628px;
-}
-
 .footer .icon{
     background-color: #ffffff;
     color: #8261ee;
     width: 40px;
-    height: 38px;
+    height: 40px;
     border-radius: 109;
     border-radius: 228px;
     padding: 10;
     cursor: pointer;
-   
 }
 
 .footer .icon a{

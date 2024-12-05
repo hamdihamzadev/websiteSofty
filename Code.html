@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>template-1</title>
+    <title>Softy</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/Css folder/image/logoicon.png">
     <!--file css-->
     <link rel="stylesheet" href="./Css folder/Code.css">
     <!--Font Poppins-->
@@ -20,534 +23,629 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
 
 </head>
 
 <body>
     <!--Start header-->
-    <div class="header position-fixed w-100">
+
+    <section id="section-header" class="position-fixed w-100">
         <div class="container">
-            <div class="d-flex align-items-center justify-content-between p-4 bg-white rounded-pill">
-                <img class="logo" src="./Css folder/image/logo.png" alt="">
-                <div class="d-flex align-items-center gap-3 text-black">
-                    <a class="text-decoration-none" href="#home">Home</a>
-                    <a class="text-decoration-none" href="#About">About</a>
-                    <a class="text-decoration-none" href="#home">Work Process</a>
-                    <a class="text-decoration-none" href="#home">Testimonials</a>
-                    <a class="text-decoration-none" href="#home">Pricing Tables</a>
-                    <a class="text-decoration-none" href="#home">Blog Entries</a>
-                    <a class="text-decoration-none" href="#home">Contact Us</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 mx-auto p-3 rounded shadow">
+                <a class="navbar-brand" href="#">
+                    <img src="/Css folder/image/logo.png" alt="" srcset="">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul style="margin-inline: -1rem;" class="navbar-nav text-center mt-3 mt-lg-0 mx-n1">
+                        <li class="nav-item p-3"><a class="nav-link active" aria-current="page" href="#Home"
+                                id="link-section1">Home</a></li>
+                        <li class="nav-item p-3"><a class="nav-link" href="#About" id="link-section2">About</a></li>
+                        <li class="nav-item p-3"><a class="nav-link" href="#WorkProcess" id="link-section3">Work
+                                Process</a> </li>
+                        <li class="nav-item p-3"><a class="nav-link" href="#Testimonials"
+                                id="link-section4">Testimonials</a></li>
+                        <li class="nav-item p-3"><a class="nav-link" href="#Pricing" id="link-section4">Pricing
+                                Tables</a></li>
+                        <li class="nav-item p-3"><a class="nav-link" href="#Blog" id="link-section4">Blog Entries</a>
+                        </li>
+                        <li class="nav-item p-3"><a class="nav-link" href="#Contact" id="link-section4">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
-                <i class="fa-solid fa-bars d-lg-none"></i>
-            </div>
+            </nav>
         </div>
-    </div>
+    </section>
 
     <img class="back-slide" src="./Css folder/image/banner-bg.png" alt="">
 
     <!--End header-->
 
 
-
     <!--Start Slide-->
 
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+        class="scrollspy-example" tabindex="0">
 
-    <div id="text-slide">
-        <div class="container">
-            <div class="text-center text-Light">
-                <div class="mb-4">
-                    <h2>We provide the best <strong>strategy</strong></h2>
-                    <h2> to grow up your<strong>sbusiness</strong></h2>
-                </div>
-                <p class="mb-5" >Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo <br>
-                    for your company at absolutely free of charge
-                </p>
-                <a class="text-decoration-none px-4 py-2 rounded-pill" id="cta" href="#cta">DISCOVRE MORE</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="advantages">
-        <div class="container">
-            <div class="row">
-           
-                <div class="col">
-                    <div class="adv bg-light px-4 py-5 d-flex align-items-center justify-content-center flex-column shadow rounded" >
-    
-                        <div id="bg-icon"  class="rounded-circle mb-4  " >
-                            <img class="icon" src="./Css folder/image/featured-item-01.png" alt="">
+        <section id="Home">
+            <div id="text-slide">
+                <div class="container">
+                    <div class="text-center text-Light">
+                        <div class="mb-4">
+                            <h2>We provide the best <strong>strategy</strong></h2>
+                            <h2> to grow up your<strong>sbusiness</strong></h2>
                         </div>
-                        <h1 class="title">Best Relationship</h1>
-                        <p class="description text-center text-Secondary  mb-0">Contact us immediately if you have a <br> question in mind </p>
-            
+                        <p class="mb-5">
+                            We provide the best strategies to help your business grow,<br> combining innovation,
+                            expertise, and
+                            tailored solutions for lasting success.
+                        </p>
+                        <a class="text-decoration-none px-4 py-2 rounded-pill" id="cta" href="#cta">DISCOVRE MORE</a>
                     </div>
                 </div>
-           
-                <div class="col">
-                    <div class="adv bg-light px-4 py-5 d-flex align-items-center justify-content-center flex-column shadow rounded" >
-    
-                        <div id="bg-icon"  class="rounded-circle mb-4  " >
-                            <img class="icon" src="./Css folder/image/featured-item-01.png" alt="">
+            </div>
+
+            <div class="advantages">
+                <div class="container">
+                    <div class="row g-4 py-section">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div
+                                class="adv bg-light px-4 py-5 d-flex align-items-center justify-content-center flex-column shadow rounded">
+
+                                <div id="bg-icon" class="rounded-circle mb-4 text-Light  ">
+                                    <i class="bi bi-graph-up fs-4"></i>
+                                </div>
+                                <h1 class="title mb-4">Modern Strategy</h1>
+                                <p class="description text-center text-Secondary  mb-0">
+                                    Modern strategy is about adopting innovative methods .
+                                </p>
+
+                            </div>
                         </div>
-                        <h1 class="title">Best Relationship</h1>
-                        <p class="description text-center text-Secondary  mb-0">Contact us immediately if you have a <br> question in mind </p>
-            
-                    </div>
-                </div>
-           
-                <div class="col">
-                    <div class="adv bg-light px-4 py-5 d-flex align-items-center justify-content-center flex-column shadow rounded" >
-    
-                        <div id="bg-icon"  class="rounded-circle mb-4  " >
-                            <img class="icon" src="./Css folder/image/featured-item-01.png" alt="">
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div
+                                class="adv bg-light px-4 py-5 d-flex align-items-center justify-content-center flex-column shadow rounded">
+
+                                <div id="bg-icon" class="rounded-circle mb-4 text-Light  ">
+                                    <i class="bi bi-award fs-4"></i>
+                                </div>
+                                <h1 class="title mb-4">Best Relationship</h1>
+                                <p class="description text-center text-Secondary  mb-0">
+                                    A quality relationship is based on trust, mutual respect and communication .
+                                </p>
+
+                            </div>
                         </div>
-                        <h1 class="title">Best Relationship</h1>
-                        <p class="description text-center text-Secondary  mb-0">Contact us immediately if you have a <br> question in mind </p>
-            
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div
+                                class="adv bg-light px-4 py-5 d-flex align-items-center justify-content-center flex-column shadow rounded">
+
+                                <div id="bg-icon" class="rounded-circle mb-4 text-Light ">
+                                    <i class="bi bi-briefcase fs-4"></i>
+                                </div>
+                                <h1 class="title mb-4">Ultimate Marketing</h1>
+                                <p class="description text-center text-Secondary  mb-0">
+                                    Ultimate Marketing is based on innovative and targeted strategies
+                                </p>
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-   
             </div>
+        </section>
 
-
-    
-
-    
-
-    
-        </div>
-    </div>
-
- 
-    <!--End Slide-->
-
-
-    <!--Start Projeect-->
-    <div class="projects">
-        <div class="container px-5">
-                <div class="row">
-                    <div class="col">
-                        <div>
-                            <img src="./Css folder/image/left-image.png" alt="">
+        <section id="About">
+            <div class="projects">
+                <div class="container px-5">
+                    <div class="row g-4 border-bottom py-section">
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <img class="w-50 w-lg-100" src="./Css folder/image/left-image.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div id="text" class="d-flex flex-column justify-content-center h-100">
+                                <p class="title mb-4">Let’s discuss about you project</p>
+                                <span class="description">
+                                    We offer tailor-made solutions to meet your specific needs<br>
+                                    Our approach is based on a deep understanding of your objectives
+                                    in order to provide you with the best results .
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div id="text" class="d-flex flex-column justify-content-center h-100">
-                            <p class="title mb-4">Let’s discuss about you project</p>
-                            <span class="description">Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue <br>
-                                blandit, at finibus leo efficitur. Nam gravida purus non sapien <br>
-                                auctor, ut aliquam magna ullamcorper.</span>
+                </div>
+            </div>
+
+            <div class="projects">
+                <div class="container px-5">
+                    <div class="row g-4 py-section">
+                        <div class="col-12 col-lg-6">
+                            <div id="text" class="d-flex flex-column justify-content-center h-100">
+                                <p class="title mb-4">We can help you to grow your business</p>
+                                <span class="description">
+                                    We can help you grow your business by providing tailored strategies that drive
+                                    success. Our
+                                    team uses innovative approaches and industry expertise to deliver results that
+                                    exceed your
+                                    expectations.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="text-end">
+                                <img class="w-50 w-lg-100" src="./Css folder/image/right-image.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="WorkProcess">
+            <div class="process">
+                <div class="container">
+                    <div class="py-section">
+                        <div class="text-process text-center">
+                            <h1 class="title">Work Process</h1>
+                            <p class="subtitle">
+                                Our work process is designed to ensure efficiency and success at every stage.
+                            </p>
+                        </div>
+
+                        <div class="sex-process">
+                            <div class="row g-4">
+                                <div class="col-6 col-md-4 col-lg">
+                                    <div class="one-prc text-center ">
+                                        <i class="bi bi-person fs-4 mb-4 d-block"></i>
+                                        <div class="title-description">
+                                            <h1 class="title">Consultation</h1>
+                                            <p class="description"> Understanding your goals and needs .</p>
+                                        </div>
+                                        <div class="back-transp"></div>
+
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg">
+                                    <div class="two-prc text-center">
+
+                                        <i class="bi bi-calendar-check fs- mb-4 d-block"></i>
+
+                                        <div class="title-description">
+                                            <h1 class="title">Planning</h1>
+                                            <p class="description">Organize and prepare for execution .</p>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg">
+
+                                    <div class="three-prc text-center">
+
+                                        <i class="bi bi-play fs-4 mb-4 d-block"></i>
+
+                                        <div class="title-description">
+                                            <h1 class="title">Execution</h1>
+                                            <p class="description">Implement the strategy .</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg">
+                                    <div class="four-prc text-center">
+
+                                        <i class="bi bi-bar-chart-line fs-4 mb-4 d-block"></i>
+
+                                        <div class="title-description">
+                                            <h1 class="title">Optimization</h1>
+                                            <p class="description">Adjust and improve performance .</p>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg">
+                                    <div class="five-prc text-center">
+
+                                        <i class="bi bi-clipboard-check fs-4 mb-4 d-block"></i>
+
+                                        <div class="title-description">
+                                            <h1 class="title">Review</h1>
+                                            <p class="description">Analyze results and grow .</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg">
+
+                                    <div class="sex-prc text-center">
+
+                                        <i class="bi bi-graph-up fs-4 mb-4 d-block"></i>
+
+                                        <div class="title-description">
+                                            <h1 class="title ">Strategy</h1>
+                                            <p class="description">Develop a tailored strategy .</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-        </div>
-    </div>
-
-    <div class="hr"></div>
-    <!--End Projeect-->
-
-    <!--Start Business-->
-    <div class="Grow-bus">
-        <div class="text">
-
-            <h1 class="title">We can help you to grow your business</h1>
-            <p class="description">Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis <br>
-                nisi, a bibendum lectus libero vitae urna. Sed id leo eu dolor <br>
-                luctus congue sed eget ipsum. Nunc nec luctus libero. Etiam <br>
-                quis dolor elit.
-            </p>
-        </div>
-
-        <img src="./Css folder/image/right-image.png" alt="">
-    </div>
-    <!--End Business-->
-
-    <!--Start Work process-->
-    <div class="process">
-        <div class="text-process">
-            <h1 class="title">Work Process</h1>
-            <p class="subtitle">Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet <br>
-                interdum, vehicula ut ex. Donec ante diam.</p>
-
-        </div>
-
-        <div class="sex-process">
-
-            <div class="one-prc">
-
-                <img src="./Css folder/image/work-process-item-01.png" alt="">
-                <div class="title-description">
-                    <h1 class="title">Get Ideas</h1>
-                    <p class="description">Godard pabst <br> prism fam <br> cliche.</p>
-                </div>
-                <div class="back-transp"></div>
-
             </div>
+        </section>
 
 
-            <div class="two-prc">
+        <section id="Testimonials">
+            <div class="reviwes">
+                <div class="container">
+                    <div class="py-section">
+                        <div class="heading mb-5">
+                            <h1 class="title text-center">What do they say?</h1>
+                            <p class="subtitle text-center">
+                                Discover what our clients think about our services. <br> Their feedback inspires us to
+                                constantly deliver excellence and exceed expectations.
+                            </p>
+                        </div>
 
-                <img src="./Css folder/image/work-process-item-01.png" alt="">
+                        <div class="comments">
+                            <div class="row g-4">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="one p-5">
 
-                <div class="title-description">
-                    <h1 class="title">Sketch Up</h1>
-                    <p class="description">Godard pabst <br> prism fam <br> cliche.</p>
-                </div>
+                                        <img class="mb-4" src="./Css folder/image/testimonial-icon.png" alt="">
 
+                                        <p class="comment mb-4">
+                                            Their expertise was impressive. Every solution they provided aligned
+                                            perfectly with
+                                            our goals.
+                                        </p>
 
-            </div>
+                                        <div class="person d-flex align-items-center gap-3">
 
-            <div class="three-prc">
+                                            <img src="./Css folder/image/rv1.png" alt="">
+                                            <div class="info-person">
+                                                <h1 class="name mb-0">Catherine Soft</h1>
+                                                <p class="profession mb-0">Managing Director</p>
+                                            </div>
 
-                <img src="./Css folder/image/work-process-item-01.png" alt="">
+                                        </div>
 
-                <div class="title-description">
-                    <h1 class="title">Discuss</h1>
-                    <p class="description">Godard pabst <br> prism fam <br> cliche.</p>
-                </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="two p-5">
 
-            </div>
+                                        <img class="mb-4" src="./Css folder/image/testimonial-icon.png" alt="">
+                                        <p class="comment mb-4">
+                                            The collaboration was outstanding. They exceeded expectations and delivered
+                                            excellent results.
+                                        </p>
 
-            <div class="four-prc">
+                                        <div class="person d-flex align-items-center gap-3">
 
-                <img src="./Css folder/image/work-process-item-01.png" alt="">
+                                            <img src="./Css folder/image/rv2.png" alt="">
+                                            <div class="info-person">
+                                                <h1 class="name mb-0">Kelvin Wood</h1>
+                                                <p class="profession mb-0">Digital Marketer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="three p-5">
 
-                <div class="title-description">
-                    <h1 class="title">Revise</h1>
-                    <p class="description">Godard pabst <br> prism fam <br> cliche.</p>
-                </div>
+                                        <img class="mb-4" src="./Css folder/image/testimonial-icon.png" alt="">
+                                        <p class="comment mb-4">
+                                            Professional and efficient team. They adapted their approach to fit our
+                                            unique
+                                            requirements
+                                        </p>
 
+                                        <div class="person d-flex align-items-center gap-3">
 
-            </div>
+                                            <img src="./Css folder/image/rv3.png" alt="">
+                                            <div class="info-person">
+                                                <h1 class="name mb-0">David Martin</h1>
+                                                <p class="profession mb-0">Website Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-            <div class="five-prc">
-
-                <img src="./Css folder/image/work-process-item-01.png" alt="">
-
-
-                <div class="title-description">
-                    <h1 class="title">Approve</h1>
-                    <p class="description">Godard pabst <br> prism fam <br> cliche.</p>
-                </div>
-
-
-
-            </div>
-
-            <div class="sex-prc">
-
-                <img src="./Css folder/image/work-process-item-01.png" alt="">
-
-                <div class="title-description">
-                    <h1 class="title">Launch</h1>
-                    <p class="description">Godard pabst <br> prism fam <br> cliche.</p>
-
-                </div>
-
-
-
-
-
-            </div>
-
-
-        </div>
-
-
-    </div>
-
-
-    <!--End  Work process-->
-
-    <!--Start Reviews-->
-    <div class="reviwes">
-
-        <div class="heading">
-            <h1 class="title">What do they say?</h1>
-            <p class="subtitle">Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, <br>
-                at accumsan elit eros a turpis. Ut sagittis lectus libero.
-            </p>
-        </div>
-
-        <div class="comments">
-
-            <div class="one">
-
-                <img src="./Css folder/image/testimonial-icon.png" alt="">
-
-                <p class="comment">Proin a neque nisi. Nam ipsum nisi, <br>
-                    venenatis ut nulla quis, egestas <br>
-                    scelerisque orci. Maecenas a finibus <br>
-                    odio.</p>
-
-                <div class="person">
-
-                    <img src="./Css folder/image/rv1.png" alt="">
-                    <div class="info-person">
-                        <h1 class="name">Catherine Soft</h1>
-                        <p class="profession">Managing Director</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="two">
-
-                <img src="./Css folder/image/testimonial-icon.png" alt="">
-                <p class="comment">Integer molestie aliquam gravida <br>
-                    Nullam nec arcu finibus, imperdiet nulla <br>
-                    vitae, placerat nibh. Cras maximus <br>
-                    venenatis molestie.
-                </p>
-
-                <div class="person">
-
-                    <img src="./Css folder/image/rv2.png" alt="">
-                    <div class="info-person">
-                        <h1 class="name">Kelvin Wood</h1>
-                        <p class="profession">Digital Marketer</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="Pricing">
+            <div class="plans">
+                <div class="container">
+                    <div class="py-section">
+                        <div class="text-plans mb-5">
+
+                            <h1 class="title">Pricing Plans</h1>
+                            <p class="subtitle">
+                                Choose a plan tailored to your needs. <br> Simple, flexible, and designed for your
+                                success.
+                            </p>
+
+                        </div>
+
+                        <div class="pack">
+
+                            <div class="row g-4">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="pack-one">
+
+                                        <h1 class="Starter">Starter</h1>
+                                        <p class="price-s">$ 42.00 <br> <span class="monthly"
+                                                style="font-weight: 400; font-size: 14px; color: white; letter-spacing: 0.88px;">monthly</span>
+                                        </p>
+                                        <p class="advantages">250 GB space <br> 5000 GB transfer <br>Pro Design Panel
+                                            <br>
+                                            <del>15-minute
+                                                support </del> <br> <del>Unlimited Emails </del> <br> <del>24/7
+                                                Security</del>
+                                        </p>
+                                        <div class="cta"> <a href="#cta">PURCHASE NOW</a></div>
 
 
 
-            <div class="three">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="pack-two">
 
-                <img src="./Css folder/image/testimonial-icon.png" alt="">
-                <p class="comment">Quisque diam odio, maximus ac <br>
-                    consectetur eu, auctor non lorem. Cras <br>
-                    quis est non ante ultrices molestie. Ut <br>
-                    vehicula et diam at aliquam.
+                                        <h1 class="Premium">Premium</h1>
+                                        <p class="price-p">$ 21.50 <br> <span class="monthly"
+                                                style="font-weight: 400; font-size: 14px; color: white; letter-spacing: 0.88px;">monthly</span>
+                                        </p>
+                                        <p class="advantages">250 GB space <br> 5000 GB transfer <br>Pro Design Panel
+                                            <br>15-minute support <br>
+                                            <del>Unlimited Emails </del> <br> <del>24/7 Security</del></p>
+                                        <div class="cta"> <a href="#cta">PURCHASE NOW</a></div>
 
-                </p>
 
-                <div class="person">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="pack-three">
 
-                    <img src="./Css folder/image/rv3.png" alt="">
-                    <div class="info-person">
-                        <h1 class="name">David Martin</h1>
-                        <p class="profession">Website Manager</p>
+                                        <h1 class="Advanced">Advanced</h1>
+                                        <p class="price-a">$ 21.50 <br><span class="monthly"
+                                                style="font-weight: 400; font-size: 14px; color: white; letter-spacing: 0.88px;">monthly</span>
+                                        </p>
+                                        <p class="advantages">250 GB space <br> 5000 GB transfer <br>Pro Design Panel
+                                            <br>15-minute support <br>
+                                            Unlimited Emails <br> 24/7 Security </p>
+                                        <div class="cta"> <a href="#cta">PURCHASE NOW</a></div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-
-        </div>
-    </div>
-
-    <!--End   Reviews-->
-
-
-    <!--Start Plans-->
-    <div class="plans">
-
-        <div class="text-plans">
-
-            <h1 class="title">Pricing Plans</h1>
-            <p class="subtitle">Donec vulputate urna sed rutrum venenatis. Cras consequat magna <br>
-                quis arcu elementum, quis congue risus volutpat.
-            </p>
-
-        </div>
-
-        <div class="pack">
-
-            <div class="pack-one">
-
-                <h1 class="Starter">Starter</h1>
-                <p class="price-s">$ 42.00 <br> <span class="monthly"
-                        style="font-weight: 400; font-size: 14px; color: white; letter-spacing: 0.88px;">monthly</span>
-                </p>
-                <p class="advantages">250 GB space <br> 5000 GB transfer <br>Pro Design Panel <br> <del>15-minute
-                        support </del> <br> <del>Unlimited Emails </del> <br> <del>24/7 Security</del></p>
-                <div class="cta"> <a href="#cta">PURCHASE NOW</a></div>
-
-
-
-            </div>
-
-            <div class="pack-two">
-
-                <h1 class="Premium">Premium</h1>
-                <p class="price-p">$ 21.50 <br> <span class="monthly"
-                        style="font-weight: 400; font-size: 14px; color: white; letter-spacing: 0.88px;">monthly</span>
-                </p>
-                <p class="advantages">250 GB space <br> 5000 GB transfer <br>Pro Design Panel <br>15-minute support <br>
-                    <del>Unlimited Emails </del> <br> <del>24/7 Security</del></p>
-                <div class="cta"> <a href="#cta">PURCHASE NOW</a></div>
-
-
-            </div>
-
-            <div class="pack-three">
-
-                <h1 class="Advanced">Advanced</h1>
-                <p class="price-a">$ 21.50 <br><span class="monthly"
-                        style="font-weight: 400; font-size: 14px; color: white; letter-spacing: 0.88px;">monthly</span>
-                </p>
-                <p class="advantages">250 GB space <br> 5000 GB transfer <br>Pro Design Panel <br>15-minute support <br>
-                    Unlimited Emails <br> 24/7 Security </p>
-                <div class="cta"> <a href="#cta">PURCHASE NOW</a></div>
-
-
-            </div>
-        </div>
-
-
-
-    </div>
-    <!--End Plans-->
-
-
-    <!--Start statistics-->
-    <div class="statistics">
-
-        <div class="info">
-
-            <h1 class="projects">126 <br> <span>Projects</span></h1>
-            <img src="./Css folder/image/circle-dec.png" alt="">
-            <h1 class="happy-client">63 <br> <span>happy Client</span></h1>
-            <img src="./Css folder/image/circle-dec.png" alt="">
-            <h1 class="awards-wins">18 <br><span>Awards Wins</span></h1>
-            <img src="./Css folder/image/circle-dec.png" alt="">
-            <h1 class="countries">27 <br><span>Countries</span></h1>
-
-        </div>
-
-
-
-
-    </div>
-    <!--Endstatistics-->
-
-    <!--Start Blog-->
-    <div class="blog">
-
-        <div class="heading">
-
-            <h1 class="Blog-Entries">Blog Entries</h1>
-            <p class="subtitle">Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet <br>
-                nulla vitae, placerat nibh. Cras maximus venenatis molestie.
-            </p>
-
-        </div>
-
-        <div class="items">
-
-
-
-            <div class="item-one">
-
-                <img src="./Css folder/image/blog-item-01.png" alt="">
-                <a class="title" href="#sss">Vivamus ac vehicula dui</a>
-                <p class="subtitle">Cras aliquet ligula dui, vitae fermentum velit tincidunt <br>
-                    id. Praesent eu finibus nunc. Nulla in sagittis eros <br> Aliquam egestas augue.
-                </p>
-                <a class="read-more" href="#sss">READ MORE</a>
-
-            </div>
-
-            <div class="item-two">
-
-                <img src="./Css folder/image/blog-item-02.png" alt="">
-                <a class="title" href="#sss">Phasellus convallis augue</a>
-                <p class="subtitle">Aliquam commodo ornare nisl, <br>
-                    et scelerisque nisl dignissim ac. Vestibulum finibus urna ut <br> velit venenatis vel ultrices
-                    sapien mattis.
-                </p>
-                <a class="read-more" href="#hh">READ MORE</a>
-
-            </div>
-
-            <div class="item-three">
-
-
-                <img src="./Css folder/image/blog-item-03.png" alt="">
-                <a class="title" href="#sss">Nam gravida purus non</a>
-                <p class="subtitle">Maecenas eu erat vitae dui convallis consequat vel <br>
-                    gravida nulla. Vestibulum finibus euismod odio, ut <br> tempus enim varius eu.
-                </p>
-                <a class="read-more" href="#sss">READ MORE</a>
-
-            </div>
-
-
-        </div>
-
-
-
-    </div>
-
-    <!--End Blog-->
-
-    <!--Start Talk To Us-->
-    <div class="Talk-To-Us">
-
-        <div class="heading">
-
-            <h1 class="title">Talk To Us</h1>
-            <p class="subtitle">Maecenas pellentesque ante faucibus lectus vulputate sollicitudin <br> Cras feugiat
-                hendrerit semper.</p>
-
-        </div>
-
-        <div class="info-forum">
-
-            <div class="info">
-                <h1 class="Keep-in-touch">Keep in touch</h1>
-                <p class="firs-par">110-220 Quisque diam odio, maximus ac <br> consectetur eu, 10260 <br> auctor non
-                    lorem</p>
-                <p class="last-par">You are NOT allowed to re-distribute Softy Pinko <br> template on any template
-                    collection websites <br> Thank you.</p>
-            </div>
-
-            <div class="forum">
-                <div class="mail-msg">
-                    <input class="e-mail" type="text" placeholder="E-Mail Adress" title="Fill this field">
-                    <input class="message" type="text" placeholder="Your Message" title="Fill this field">
+        </section>
+
+        <section id="Statistics">
+            <div class="statistics ">
+                <div class="container">
+                    <div class="info py-section">
+                        <div class="row justify-content-between g-5">
+                            <div class="col-12 col-md-6 col-lg-1">
+                                <h1 class="numbers text-center">126 <br> <span>Projects</span></h1>
+                            </div>
+                            <div
+                                class="col-12 col-md-6 col-lg-1 d-flex align-items-center justify-content-center d-md-none d-lg-flex">
+                                <img src="./Css folder/image/circle-dec.png" alt="">
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-1">
+                                <h1 class="numbers text-center">63 <br> <span>happy Client</span></h1>
+                            </div>
+                            <div
+                                class="col-12 col-md-6 col-lg-1 d-flex align-items-center justify-content-center d-md-none d-lg-flex">
+                                <img src="./Css folder/image/circle-dec.png" alt="">
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-1">
+                                <h1 class="numbers text-center">18 <br><span>Awards Wins</span></h1>
+                            </div>
+                            <div
+                                class="col-12 col-md-6 col-lg-1 d-flex align-items-center justify-content-center d-md-none d-lg-flex">
+                                <img src="./Css folder/image/circle-dec.png" alt="">
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-1">
+                                <h1 class="numbers text-center">27 <br><span>Countries</span></h1>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <input class="full-name" type="text" placeholder="Full Name" title="Fill this field">
-                <div class="send"><a href="#sr">SEND MESSAGE</a></div>
+            </div>
+        </section>
 
+        <section id="Blog">
+            <div class="blog">
+                <div class="conatiner">
+                    <div class="py-section">
+                        <div class="heading">
+
+                            <h1 class="Blog-Entries">Blog Entries</h1>
+                            <p class="subtitle">
+                                Discover practical insights daily Stay ahead with valuable <br> concise, and actionable
+                                tips.
+                            </p>
+
+                        </div>
+
+                        <div class="items">
+                            <div class="row g-5">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="item-one">
+
+                                        <img src="./Css folder/image/blog-item-01.png" alt="">
+                                        <a class="title" href="#sss">Understanding Your Needs</a>
+                                        <p class="subtitle">
+                                            Effective consultation builds trust. It ensures clear <br> goals and
+                                            tailored
+                                            solutions .
+                                        </p>
+                                        <a class="read-more" href="#sss">READ MORE</a>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="item-two">
+
+                                        <img src="./Css folder/image/blog-item-02.png" alt="">
+                                        <a class="title" href="#sss">Crafting the Perfect Strategy</a>
+                                        <p class="subtitle">
+                                            A strong strategy aligns priorities. It focuses <br> on measurable,
+                                            achievable
+                                            outcomes.
+                                        </p>
+                                        <a class="read-more" href="#hh">READ MORE</a>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+
+                                    <div class="item-three">
+
+
+                                        <img src="./Css folder/image/blog-item-03.png" alt="">
+                                        <a class="title" href="#sss"> From Execution to Optimization</a>
+                                        <p class="subtitle">
+                                            Execution drives results Optimization ensures <br> consistent improvement
+                                            and
+                                            long-term success.
+                                        </p>
+                                        <a class="read-more" href="#sss">READ MORE</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <div class="Talk-To-Us">
+                <div class="container">
+                    <div class="py-section">
+                        <div class="heading mb-5">
+                            <h1 class="title">Talk To Us</h1>
+                            <p class="subtitle">
+                                We value communication deeply. <br> Share your ideas, and let's collaborate.
+                            </p>
+                        </div>
+
+                        <div class="info-forum">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+
+                                    <div class="info text-start">
+                                        <h1 class="Keep-in-touch">Keep in touch</h1>
+                                        <p class="firs-par">
+                                            Adress: Morocco - Casablanca
+                                            <br> Email: hamdihamza440@gmail.com
+                                            <br> Linkedin: Hamza Hamdi
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <form class="row g-3 " id="form">
+                                        <div class="col-12">
+
+                                            <input type="text" id="input-form" placeholder="Enter Name "
+                                                class="form-control" id="validationCustom01" required>
+
+                                        </div>
+                                        <div class="col-12">
+
+                                            <input type="text" id="input-form" placeholder="Enter Email"
+                                                class="form-control" id="validationCustom02" required>
+
+                                        </div>
+                                        <div class="col-12">
+
+                                            <input type="text" id="input-form" placeholder="Enter Message "
+                                                class="form-control" id="validationCustom02" required>
+
+                                        </div>
+
+                                        <div class="col-12">
+                                            <button class="btn w-100" type="submit">Send</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class="footer">
+                <div class="container">
+                    <div class="social-media d-flex justify-content-center align-items-center gap-1">
+
+                        <div class="icon">
+                            <a target="_blank" href="https://portfolio-peach-seven-22.vercel.app/">
+                                <i class="bi bi-globe2"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a target="_blank" href="https://www.linkedin.com/in/hamza-hamdi-5b500b19a/">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a target="_blank" href="https://github.com/hamdihamzadev">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hr"></div>
+
+                    <p class="COPYRIGHT">COPYRIGHT © 2020 SOFTY PINKO COMPANY - DESIGN: TEMPLATEMO - CODE : hamdi hamza
+                    </p>
+                </div>
             </div>
 
-        </div>
-    </div>
+        </section>
 
-    <!--End Talk To Us-->
-
-
-
-    <!--Start Footer-->
-
-    <div class="footer">
-
-        <div class="social-media">
-
-            <div class="icon"> <a href="#fa"><i class="fa-brands fa-facebook-f"></i></a></div>
-            <div class="icon"><a href="#ins"><i class="fa-brands fa-instagram"></i></a></div>
-            <div class="icon"><a href="#dr"><i class="fa-brands fa-dribbble"></i></a></div>
-            <div class="icon"><a href="#tw"><i class="fa-brands fa-twitter"></i></a></div>
-            <div class="icon"><a href="#beh"><i class="fa-brands fa-behance"></i></a></div>
-
-
-        </div>
-        <div class="hr"></div>
-
-        <p class="COPYRIGHT">COPYRIGHT © 2020 SOFTY PINKO COMPANY - DESIGN: TEMPLATEMO</p>
 
     </div>
 
-
-    <!--End  Footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/code.js"></script>
 
 
 </body>
+
 
 </html>

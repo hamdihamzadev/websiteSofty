@@ -1,0 +1,13 @@
+
+
+
+.bag{
+
+    width: 100px;
+    background-color: black;
+    color: white;
+    max-height: 65px;
+    overflow: hidden;
+    transition:  max-height 1s ease;
+
+}
